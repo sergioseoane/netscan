@@ -1,0 +1,8 @@
+psutil>=5.9
+
+# Opcional, solo hace falta si quieres generar el .exe instalable:
+pyinstaller>=6.0
+
+# Opcional, solo hace falta para las notificaciones de escritorio del
+# informe semanal (auditoria/audit_informe_semanal.py):
+plyer>=2.1

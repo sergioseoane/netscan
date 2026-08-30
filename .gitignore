@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+*.pyo
+
+# Carpetas que genera PyInstaller al crear el .exe
+build/
+dist/
+*.spec
+
+# Resultados de escaneo que no deben subirse (pueden contener IPs/MACs reales de tu red)
+auditoria/informes/
+auditoria/linea_base.json
+resultado.json
+resultado.txt
